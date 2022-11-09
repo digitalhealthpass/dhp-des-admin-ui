@@ -1,0 +1,2 @@
+id, clientName, mobile, givenName, familyName, testResult, testId, testType, date
+dev-spt201, BTS Client, a5075555550, user0, Wild, Positive, covtest1, Covid-19 Test Result, 2021-02-10

@@ -1,0 +1,12 @@
+id, testType, testId, familyName, givenName, testResult, date
+789, Covid-19 Test Result, test1, H, Charlotte, Positive, 2018-12-10
+789, Covid-19 Test Result, test2, H, Suzanne, Negative, 2018-12-10
+invalid, Covid-19 Test Result, test3, H, Emma, Negative, 2018-12-10
+, Covid-19 Test Result, test4, H, Erica, Negative, 2018-12-10
+789, , test5, H, Kelly, Positive, 2018-12-10
+789, Covid-19 Test Result, test6, , Katie, Positive, 2018-12-10
+789, Covid-19 Test Result, test7, H, , Negative, 2018-12-10
+789, Covid-19 Test Result, test8, H, Emily, , 2018-12-10
+789, Covid-19 Test Result, test9, H, Elizabeth, Negative,
+789, Covid-19 Test Result, test10, H, Clara, Negative, invalid
+,,,,,

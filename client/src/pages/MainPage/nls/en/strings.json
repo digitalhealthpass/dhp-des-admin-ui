@@ -1,0 +1,13 @@
+{
+  "MAIN_PAGE": {
+    "registration": "Preregistrations",
+    "results": "Test results",
+    "btnUploadText": "Upload file",
+    "table_userregs": "User Preregistrations",
+    "table_testresults": "Test Results",
+    "file_invalid": "Upload file is invalid.",
+    "page_title": "Batch Processing",
+    "page_description": "Batch processing allows you to upload batch files for processing.  A summary of the processing status of previously processed batch jobs will be displayed in the table below.",
+    "batchAborted": "Processing halted after line {{processingIndex}} because too many failures were encountered."
+  }
+}

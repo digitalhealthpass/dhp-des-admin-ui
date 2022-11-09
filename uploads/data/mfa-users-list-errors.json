@@ -1,0 +1,36 @@
+{
+  "payload": {
+    "batchID": "9894ffe5-fb2b-4141-a803-20f5de1070b8",
+    "successCountTotal": "7",
+    "failureCountTotal": "3",
+    "failedRows": [
+      {
+        "id": 0,
+        "clientName": " client0",
+        "mobile": "undefined",
+        "givenName": " user0",
+        "familyName": " test",
+        "location": " US-TA",
+        "failureReasons": ["location is invalid", "mbile is undefined"]
+      },
+      {
+        "id": 1,
+        "clientName": " client1",
+        "mobile": 5555555551,
+        "givenName": "undefined",
+        "familyName": "undefined",
+        "location": " US-AL",
+        "failureReasons": ["givenName is undefined", "familyName is undefined"]
+      },
+      {
+        "id": 2,
+        "clientName": "undefined",
+        "mobile": 5555555552,
+        "givenName": " user2",
+        "familyName": " test",
+        "location": " US-OK",
+        "failureReasons": ["clientName is undefined", "familyName is undefined"]
+      }
+    ]
+  }
+}

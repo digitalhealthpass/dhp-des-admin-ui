@@ -1,0 +1,116 @@
+/**
+ * Digital Health Pass 
+ *
+ * (c) Copyright Merative US L.P. and others 2020-2022 
+ *
+ * SPDX-Licence-Identifier: Apache 2.0
+ */
+
+html {
+  display: flex;
+	flex: 1 1 auto;
+	height: 100%;
+  font-size: 16px; // basis for rem
+  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+	overflow: hidden;
+	
+  body {
+
+		@media not all, (forced-colors: active), not all {
+
+			.bx--header__menu-item:focus {
+				outline: dotted;
+			}
+
+			.numInputWrapper .arrowUp, .numInputWrapper .arrowDown {
+				opacity: 1 !important;
+			}
+
+			.numInputWrapper:hover .arrowUp:after,
+			.numInputWrapper:hover .arrowDown:after {
+				border-bottom-color: ButtonText !important;
+				border-top-color: ButtonText !important;
+			} 
+
+			.bx--date-picker__icon
+			.bx--btn--primary .bx--btn__icon, .bx--btn--primary .bx--btn__icon path:not([data-icon-path]):not([fill=none]),
+			.bx--inline-notification--low-contrast .bx--inline-notification__close-button .bx--inline-notification__close-icon,
+			.bx--toolbar-search-container-expandable .bx--search-magnifier-icon,
+			.flatpickr-months svg,
+			svg 
+			{
+				fill: ButtonText !important;
+			}
+	  }
+	  
+		@media only screen and (max-width: 1023px), screen and (max-height: 767px) {
+
+			#root {
+				height: inherit;
+				overflow: hidden;
+
+				.login-page {
+					.login-sideImg {
+						display: none;
+					}
+					.login-sideform {
+						overflow: auto;
+						padding: 1rem 0rem 0rem 1rem;
+						margin: 0rem;
+						.login-form {
+							h2 {
+								margin-bottom: 0rem;
+							}
+						} 
+					} 
+				}
+
+				main {
+					padding: 1rem 1rem 1rem 1rem;
+					margin: 0rem;
+					overflow: auto;
+			
+					.page_title {
+						font-size: 100%;
+					}
+			
+					.lastRefresh {
+						min-width: unset;
+					}
+					.bx--tab-content {
+						&:not([hidden]) {
+							padding: 1rem 0rem;
+			
+							.bx--toolbar-content {
+								.bx--form-item{
+									width: auto;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+
+		overflow: hidden;
+		display: flex;
+		flex: 1 1 auto;
+		height: inherit;
+
+		#root {
+			display: flex;
+			flex: 1 1 auto;
+			flex-direction: column;
+			overflow: hidden;
+
+			.bx--inline-notification.bx--inline-notification--error {
+				max-width: inherit;
+				min-height: auto;
+			}
+
+			.flatpickr-day.flatpickr-disabled {
+				color: #696969;
+			}	
+		}
+  }
+}

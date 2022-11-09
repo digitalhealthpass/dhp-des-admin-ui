@@ -1,0 +1,8 @@
+---
+applications:
+  - disk_quota: 512M
+    name: datasubmission-admin-ui
+    command: 'npm start'
+    path: '.'
+    instances: 1
+    memory: 128M

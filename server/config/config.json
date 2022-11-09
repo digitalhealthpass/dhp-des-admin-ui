@@ -1,0 +1,7 @@
+{
+  "log": {
+    "name": "console",
+    "level": "debug"
+  },
+  "timeout": 10000
+}

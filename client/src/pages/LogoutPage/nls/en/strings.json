@@ -1,0 +1,6 @@
+{
+  "LOGOUT_PAGE": {
+    "message1": "Your session has timed out.",
+    "message2":  "You will be redirected to the log in page in {{timer}} seconds."
+  }
+}
